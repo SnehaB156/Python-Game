@@ -2,13 +2,13 @@
 Dino Runner Game
 This is a simple 2D platformer game created using Pygame, where the player controls a dinosaur that jumps over obstacles while scoring points. The game draws inspiration from the classic Chrome Dino game.
 
-Features
+#Features
 Player Character: Control a dinosaur that can run, jump, and duck.
 Obstacles: Avoid various types of obstacles, including cacti and birds.
 Scoring System: Earn points for every frame the dinosaur survives, with increasing speed as points increase.
 Clouds and Background: A scrolling background and clouds enhance the visual experience.
-Restart Mechanism: Upon collision with an obstacle, the game displays the score and allows the player to restart.
-Installation
+#Restart Mechanism: Upon collision with an obstacle, the game displays the score and allows the player to restart.
+##Installation
 Install Pygame:
 
 bash
@@ -44,7 +44,7 @@ Run the game with the following command:
 bash
 Copy code
 python your_game_file.py
-Controls
+##Controls
 UP Arrow: Jump
 DOWN Arrow: Duck
 Game Mechanics
@@ -56,7 +56,7 @@ Game Over
 If the dinosaur collides with an obstacle while not in a jump, the game pauses and shows the player's score. Press any key to restart the game.
 
 Code Structure
-Classes:
+#Classes:
 Dinosaur: Handles the dinosaur's state (running, jumping, ducking) and animations.
 Cloud: Manages cloud positioning and movement.
 Obstacle: Base class for all obstacles.
@@ -64,8 +64,8 @@ SmallCactus, LargeCactus, Bird: Specific types of obstacles.
 Functions:
 main(): Main game loop that handles game logic and rendering.
 menu(): Displays the start/restart menu.
-Acknowledgements
+#Acknowledgements
 This game uses Pygame, a great library for game development in Python.
 All graphics assets are custom and should be created or sourced properly.
-License
+#License
 This project is open-source. Feel free to modify and use it for personal or educational purposes.
