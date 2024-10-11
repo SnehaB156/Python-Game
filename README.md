@@ -2,6 +2,10 @@
 
 ## Description
 Dino Runner is a simple 2D platformer game created using Pygame, where the player controls a dinosaur that jumps over obstacles while scoring points. The game draws inspiration from the classic Chrome Dino game.
+## Controls
+- **UP Arrow:** Jump over obstacles.
+- **DOWN Arrow:** Duck under obstacles.
+- **Any Key:** Restart the game after a game over.
 
 ## Features
 - **Player Character:** Control a dinosaur that can run, jump, and duck.
